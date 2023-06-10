@@ -1,4 +1,4 @@
-<?php require_once controller("common"); ?>
+<?php require_once controllers("common"); ?>
 
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -17,7 +17,7 @@
     <title><?php wp_title("|"); ?>
     </title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo image("favicon.ico"); ?>">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo images("favicon.ico"); ?>">
     <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="cleartype" content="on">
     <meta http-equiv="cache-control" content="no-cache" />
